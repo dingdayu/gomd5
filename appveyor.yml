@@ -30,4 +30,4 @@ deploy: false
 
 test_script:
   - go build
-  - gomd5.exe -file README.md
+  - gomd5 -file README.md
