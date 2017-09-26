@@ -17,3 +17,15 @@ this is golang md5.
 ## PR
     Please Read [PULL_REQUEST_TEMPLATE.md](PULL_REQUEST_TEMPLATE.md)
         
+## Installation
+
+go get
+```
+go get -v github.com/dingdayu/gomd5
+```
+
+## Usage
+
+```
+gomd5 -h
+```
