@@ -11,4 +11,6 @@ install:
   - go get -v -d -t github.com/dingdayu/gomd5
 
 script:
+  - pwd
+  - ll -a
   - ./gomd5 -file README.md
