@@ -24,12 +24,12 @@ func main() {
 	}
 
 	fmt.Println("整文件MD5:")
-	md21(*filePath)
+	md51(*filePath)
 	fmt.Println("分块文件MD5:")
-	md22(*filePath)
+	md52(*filePath)
 }
 
-func md21(filePath string)  {
+func md51(filePath string)  {
 	start_time := time.Now() // get current time
 	file, err := os.Open(filePath)
 	if err != nil {
@@ -49,7 +49,7 @@ func md21(filePath string)  {
 	fmt.Println("Elapsed: ", elapsed)
 }
 
-func md22(filePath string)  {
+func md52(filePath string)  {
 	start_time := time.Now() // get current time
 	file, err := os.Open(filePath)
 	if err != nil {
