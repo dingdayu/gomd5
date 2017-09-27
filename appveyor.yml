@@ -30,4 +30,5 @@ deploy: false
 
 test_script:
   - go build
+  - dir /a *
   - ./gomd5 -file README.md
