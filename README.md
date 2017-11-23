@@ -1,7 +1,7 @@
 # gomd5
 
 <p align="center">
-  <a href="https://travis-ci.org/golang/dep"><img src="https://travis-ci.org/dingdayu/gomd5.svg?branch=master" alt="Build Status"></img></a>
+  <a href="https://travis-ci.org/dingdayu/gomd5"><img src="https://travis-ci.org/dingdayu/gomd5.svg?branch=master" alt="Build Status"></img></a>
   <a href="https://ci.appveyor.com/project/dingdayu/gomd5"><img src="https://ci.appveyor.com/api/projects/status/github/dingdayu/gomd5?svg=true&branch=master&passingText=Windows%20-%20OK&failingText=Windows%20-%20failed&pendingText=Windows%20-%20pending" alt="Windows Build Status"></a>
   <a href="https://blog.dingxiaoyu.com"><img src="https://img.shields.io/badge/author-@dingdayu-blue.svg?style=flat" alt="Author"></a>
   <a href="https://godoc.org/github.com/dingdayu/gomd5"><img src="https://godoc.org/github.com/dingdayu/gomd5?status.svg" alt="GoDoc"></a>
